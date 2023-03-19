@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reservation .css">
+</head>
+<body>
+    
+
+<form>
+    <h2>Réservation</h2>
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required>
+    
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="telephone">Téléphone :</label>
+    <input type="tel" id="telephone" name="telephone" required>
+    
+    <label for="date-arrivee">Date d'arrivée :</label>
+    <input type="date" id="date-arrivee" name="date-arrivee" required>
+    
+    <label for="date-depart">Date de départ :</label>
+    <input type="date" id="date-depart" name="date-depart" required>
+    
+    <label for="nb-personnes">Nombre de personnes :</label>
+    <input type="number" id="nb-personnes" name="nb-personnes" required>
+
+    <label for="compagnie-aerienne">Compagnie aérienne :</label>
+  <select id="compagnie-aerienne" name="compagnie-aerienne">
+    <option value="air-france">Air France</option>
+    <option value="emirates">Emirates</option>
+    <option value="delta-air-lines">Delta Air Lines</option>
+    <option value="lufthansa">Lufthansa</option>
+    <option value="air senegal">Air-Senegal</option>
+  </select>
+    
+    <label for="message">Message :</label>
+    <textarea id="message" name="message"></textarea>
+    
+    <button type="submit">Envoyer</button>
+  </form>
+  <footer>
+    <a href="index.html">Retour à l'acceuil</a>
+</footer>
+
+</body>
+</html>
